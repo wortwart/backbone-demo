@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <meta charset="utf-8">
+   <title>Backbone.js-Tutorial</title>
+   <script type="text/javascript" src="js/jquery-min.js"></script>
+   <script type="text/javascript" src="js/underscore-min.js"></script>
+   <script type="text/javascript" src="js/backbone-min.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+ </head>
+
+ <body>
+
+  <div id="eingabe_container">
+   <label>Projektname</label>
+   <input id="projektname" type="text">
+   <input value="Nr. 1 speichern" type="button">
+  </div>
+  <ul id="info"></ul>
+
+  <script type="text/template" id="eingabe">
+   <label>Projektname</label>
+   <input type="text" id="projektname"/>
+   <input type="button" value="Nr. <%= nr %> speichern"/>
+  </script>
+
+  <script type="text/template" id="liste">
+   <li><%= eintrag %></li>
+  </script>
+
+  <script type="text/template" id="liste_link">
+   <li><a href="<%= url %>"><%= eintragLink %></a><%= eintrag %></li>
+  </script>
+
+  <script type="text/javascript" src="js/app.js">
+  </script>
+
+ </body>
+</html>

@@ -1,0 +1,154 @@
+body{
+ background:#FFF;
+ margin:9px;
+ font: 10pt/15pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+ color:#666;
+}
+
+a:link{
+ color:#999;
+ text-decoration:none;
+}
+a:hover{
+ color:#6C8EFF;
+ text-decoration:underline;
+}
+a:active{
+ color:#999;
+ text-decoration:none;
+}
+a:active:hover{
+ color:#6C8EFF;
+ text-decoration:underline;
+}
+a:visited{
+ color:#999;
+ text-decoration:none;
+}
+a:visited:hover {
+ color: #6C8EFF;
+ text-decoration: underline;
+}
+
+#wrap {
+ width: 800px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#sidebar {
+ float: left;
+ text-align: left;
+ width: 150px;
+}
+
+#container {
+ width: 600px;
+ margin-left: 160px;
+ border-left: #CCC 1px solid;
+}
+
+#content0 {
+ width: 560px;
+ padding: 20px;
+ text-align: justify;
+}
+
+#content1 {
+ width: 270px;
+ padding: 20px;
+ float: left;
+ text-align: justify;
+}
+
+.content2 {
+ padding: 20px;
+ text-align: justify;
+}
+
+h3 {
+ text-align: right;
+ color: #6C8EFF;
+ font-size: 14pt;
+ font-weight: bold;
+}
+
+#title {
+ height: 120px;
+ margin-top: 30px;
+ border-bottom: #CCC 1px solid;
+ text-align: right;
+ font-size: 12pt;
+ letter-spacing: 1px;
+ color: #CCC;
+ background-image: url("../images/header.jpg");
+}
+
+#footer {
+ text-align: center;
+ font-size: 10px;
+ height: 30px;
+ margin-top: 10px;
+ border-top: #CCC 1px solid;
+ text-transform: lowercase;
+}
+
+#navlist {
+ padding: 0 1px 1px;
+ margin-left: 0;
+ font: bold 12px Verdana, sans-serif;
+ background: #F3F3F3;
+ width: 13em;
+}
+
+#navlist li {
+ list-style: none;
+ margin: 0;
+ border-top:#CCCCCC 1px solid;
+ text-align: right;
+}
+
+#navlist li a {
+ display: block;
+ padding: 0.25em 0.5em 0.25em 0.75em;
+ background: #F3F3F3;
+ text-decoration: none;
+}
+
+#navlist li a:link {color: #6C8EFF;}
+#navlist li a:visited {color: #999;}
+
+#navlist li a:hover {
+ border-color: #FE3;
+ color: #666;
+ background: #FFF;
+}
+.row {
+ background: #ffc;
+ border: 2px solid #ffc;
+ margin: 0 0 5px 0;
+ width: 100%;
+ padding: 6px 0;
+}
+.row label {
+ float: left;
+ display: block;
+ width: 15em;
+ font-weight: bold;
+ padding: 0 6px;
+}
+.row label:hover {
+ background: #FF6;
+ cursor: pointer;
+}
+.row fieldset {
+ border: 1px solid gray;
+ margin: 0 6px;
+}
+.row fieldset span {display:block;}
+.row fieldset span label {
+ float: none;
+ display: inline;
+}
+.row fieldset legend {font-weight: bold;}
+.requiredRow {border: 1px dotted #f96;}
